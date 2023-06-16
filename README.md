@@ -1,116 +1,73 @@
-# The Hacker theme
+# Roland RE-150 Space Echo service
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
+The Roland RE-150 Space Echo is a legendary tape echo unit that has played a significant role in shaping the sounds of countless musicians across the decades. However, like any vintage piece of equipment, it requires regular maintenance to ensure optimal performance. 
 
-*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
+In this blog post, I will take you through the step-by-step process I followed to service my Roland RE-150 Space Echo. 
 
-![Thumbnail of Hacker](thumbnail.png)
+### Potentiometer Cleanup with PRF 7-78
 
-## Usage
+Potentiometers, or pots, are used to control various parameters on the RE-150, such as echo intensity and repeat rate. Over time, these pots can accumulate dust and debris, leading to crackling sounds or erratic behavior. To address this issue, I used a specialized electronics cleaner called PRF 7-78.
 
-To use the Hacker theme:
+1. Start by unplugging the RE-150 and removing its outer casing to gain access to the internal components.
+2. Locate the potentiometers on the front panel and carefully spray PRF 7-78 into the small openings around the potentiometer shafts.
+3. Rotate the pots back and forth several times to distribute the cleaner and remove any dirt or oxidation.
+4. Allow the cleaner to evaporate completely before proceeding to the next step.
 
-1. Add the following to your site's `_config.yml`:
+### Power Capacitor Recapping
 
-    ```yml
-    remote_theme: pages-themes/hacker@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+Electrolytic capacitors are an essential component of the RE-150's power supply and can deteriorate over time, leading to noise issues or even failure. Recapitulating the power capacitors can significantly improve the unit's reliability and audio performance.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+The power capacitors are:
+- C60: 1000uF 25V
+- C61: 1000uF 16V
+- C59: 220uF 25V
+- C57: 100uF 25V  
+- C58: 100uF 25V 
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+1. Ensure that the RE-150 is unplugged from the power source.
+2. Carefully identify the power capacitors on the circuit board.
+3. Desolder the old capacitors one by one, taking note of their orientation to ensure proper replacement. Remove the glue residues.
+4. Install the new capacitors in their respective positions, paying attention to the correct polarity.
+5. Double-check all solder connections to ensure they are solid and free from any solder bridges.
 
-## Customizing
+#### Power caps removed
+![](images/re150/nocaps.jpg)
 
-### Configuration variables
+#### Glue removed
+![](images/re150/cleaned_nocaps.jpg)
 
-Hacker will respect the following variables, if set in your site's `_config.yml`:
+#### New caps installed
+![](images/re150/newcaps.jpg)
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+![](images/re150/overview.jpg)
 
-Additionally, you may choose to set the following optional variables:
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+### PCB Cleaning
 
-### Stylesheet
+Over time, dust, grime, and oxidation can accumulate on the printed circuit board (PCB), affecting the unit's performance. Cleaning the PCB helps to maintain signal integrity and prevent potential issues.
 
-If you'd like to add your own custom styles:
+1. Carefully remove the RE-150's PCB from its housing, taking necessary precautions to avoid damaging any components.
+2. Using a can of compressed air, blow away loose dust and debris from the PCB surface.
+3. Dip a soft-bristle brush in isopropyl alcohol and gently scrub the PCB, paying attention to areas with visible dirt or oxidation.
+4. Allow the PCB to air dry completely before reassembling the unit.
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+### Magnetic Head Cleaning
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+The magnetic heads in the RE-150 are responsible for the characteristic echo effect. Over time, they can accumulate oxide buildup and dirt, resulting in degraded audio quality. Cleaning the magnetic heads is crucial for maintaining the unit's performance.
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+![](images/re150/heads.jpg)
 
-### Layouts
+1. Carefully remove the protective cover over the magnetic heads, ensuring not to touch the heads themselves.
+2. Moisten a cotton swab or lint-free cloth with isopropyl alcohol and gently clean the magnetic heads by applying light pressure.
+3. Use a second clean swab or cloth to remove any residue left behind.
+4. Allow the heads to air dry completely before reassembling the unit.
 
-If you'd like to change the theme's HTML layout:
+### Overall Cleanup
+To complete the servicing process, a thorough overall cleanup of the RE-150 is necessary. This step involves cleaning the external casing, switches, and connectors.
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/hacker/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
+1. Wipe the outer casing with a soft cloth slightly dampened with a mild cleaning solution. Avoid using harsh chemicals or cessive moisture.
+2. Clean the switches and connectors using a contact cleaner or isopropyl alcohol.
+3. Allow all components to dry completely before reassembling the unit.
 
-### Customizing Google Analytics code
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/hacker/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Hacker theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Hacker? We'd love your help. Hacker is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/hacker`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+*Disclaimer: ChatGPT was heavily used to generate the post!*
