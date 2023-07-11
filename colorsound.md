@@ -2,9 +2,11 @@
 
 # Colorsound 
 
-This is a reissue from the 1990s?
+There are not that much PCB info for the this type of Colorsound pedal, which seems to be a reissue from the 1990s?
 
-One of the previous owners of this unit was apparently Ben Granfelt?
+So I'll be adding some photos here.
+
+One of the previous owners of this unit was apparently Ben Granfelt.
 
 <br/>
 
