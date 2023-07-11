@@ -10,3 +10,5 @@
 # Other
 
 7/2023: [Steel Panther 1987 guitar pedal internals](./1987.md)
+
+7/2023: [Colorsound Wah Fuzz pedal internals](./colorsound.md)
