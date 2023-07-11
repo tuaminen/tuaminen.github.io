@@ -47,11 +47,14 @@ Op amp is NE5534AN.
 
 The NE5534 is a single op-amp package and it may require a compensation cap when used in the circuit, whereas the common NE5532 is a dual package and that compensation cap is internal. 
 
+There seems to be some fuzz pedals with NE5534, such as [this](http://tagboardeffects.blogspot.com/2013/03/boot-leg-jzf-1-jazz-fuzz.html).
 <br/>
 
 ### Wah
 
 ![](images/colorsound/wah_pcb.jpg)
+
+![](images/colorsound/wah_pcb2.jpg)
 
 
 Transistor seems to be BC184L NPN.
