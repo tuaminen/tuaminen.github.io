@@ -3,6 +3,10 @@
 # Repairs / Service
 
 
+9/2023: [Casio MG-510 guitar](./mg510.md)
+
+9/2023: [Eventide H3000 fx](./h3000.md)
+
 7/2023: [Panasonic PanaSync E70 monitor](./Panasync.md)
 
 6/2023: [Roland RE-150 Space Echo service](./RE150.md)
