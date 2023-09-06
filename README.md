@@ -22,5 +22,4 @@
 
 
 
-
-[![Hits](https://hits.sh/tuaminen.github.io.svg)](https://hits.sh/tuaminen.github.io/)
+{% include footer.md  %}

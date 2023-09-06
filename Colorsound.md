@@ -62,3 +62,4 @@ Transistor seems to be BC184L NPN.
 ![](images/colorsound/wah_transistor.jpg)
 
 
+{% include footer.md  %}

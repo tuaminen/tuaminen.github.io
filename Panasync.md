@@ -47,3 +47,5 @@ So the monitor can now be turned ON/OFF using the back ON/OFF power switch in th
 
 ## Up and running
 ![](images/panasync/fix.jpg)
+
+{% include footer.md  %}
