@@ -5,7 +5,7 @@
 
 9/2023: [Casio MG-510 guitar](./mg510.md)
 
-9/2023: [Eventide H3000 fx](./h3000.md)
+9/2023: [Eventide H3000 Ultra harmonizer](./h3000.md)
 
 7/2023: [Panasonic PanaSync E70 monitor](./Panasync.md)
 
@@ -19,3 +19,8 @@
 7/2023: [Steel Panther 1987 guitar pedal internals](./1987.md)
 
 7/2023: [Colorsound Wah Fuzz pedal internals](./Colorsound.md)
+
+
+
+
+[![Hits](https://hits.sh/tuaminen.github.io.svg)](https://hits.sh/tuaminen.github.io/)
