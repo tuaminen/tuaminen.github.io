@@ -1,5 +1,22 @@
 {% include header.md  %}
 
+
+# Self-designed SANDST0RM synths
+
+2021: [SANDST0RM-1 monosynth](sandst0rm-1/main.md)
+
+2022-202x: [FREED0M-4 polysynth](freed0m-4/main.md)
+
+
+#  Self-designed Music HW products
+
+[PT-200 (Roland PG-200 programmer clone) ](pt200/main.md)
+
+[MIDI kit for Boss DR-55](dr55/main.md)
+
+[Effect pedal development board](pedal_devboard/main.md)
+
+
 # Repairs / Service
 
 
