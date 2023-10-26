@@ -31,12 +31,18 @@
 6/2023: [Roland RE-201 Space Echo repair & service](./RE201.md)
 
 
-# Other
+# Other HW stuff
 
 7/2023: [Steel Panther 1987 guitar pedal internals](./1987.md)
 
 7/2023: [Colorsound Wah Fuzz pedal internals](./Colorsound.md)
 
+
+# My other sites
+
+[Sandst0rm music at Youtube](https://www.youtube.com/@sandst0rmOfficial)
+
+[Instagram](https://www.instagram.com/tuaminen/)
 
 
 {% include footer.md  %}
