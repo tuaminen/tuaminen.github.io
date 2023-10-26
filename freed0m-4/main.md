@@ -1,6 +1,6 @@
 # FREED0M-4 Background
 
--After Sandst0rm-1 monosynth, I had an idea to build a new polyphonic synth with stereo sound.
+After Sandst0rm-1 monosynth, I had an idea to build a new polyphonic synth with stereo sound.
 
 To simplify the design, I decided to remove all computer-controlled parameters, so patch/preset support had to be forgotten.
 
@@ -163,7 +163,7 @@ I spent basically the entire summer 2022 by building and fixing this.
 #### More PCBs
 ![](/images/freed0m4/v1_wip2.jpg)
 
-#### Attempting to package everything
+#### Attempting to package everything into old cash register that I found from a trashcan
 ![](/images/freed0m4/v1_wip4.jpg)
 
 #### Two layers of PCBs stacked
@@ -171,3 +171,5 @@ I spent basically the entire summer 2022 by building and fixing this.
 
 #### It is getting hard to manage all the cables and boards
 ![](/images/freed0m4/v1_wip7.jpg)
+
+...the story continues...
