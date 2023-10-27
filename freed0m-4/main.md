@@ -173,3 +173,7 @@ I spent basically the entire summer 2022 by building and fixing this.
 ![](/images/freed0m4/v1_wip7.jpg)
 
 ...the story continues...
+
+
+
+{% include footer.md  %}

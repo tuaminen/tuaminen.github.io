@@ -11,3 +11,7 @@ Hopefully I can get this finished and release this to the world.
 ![](/images/dr55/dr55_board.jpg)
 
 
+
+
+{% include footer.md  %}
+
