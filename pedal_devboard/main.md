@@ -18,3 +18,6 @@ The worst mistake ever was to place the input and output jacks wrong way around 
 ## Version 2
 
 Under construction..
+
+
+{% include footer.md  %}

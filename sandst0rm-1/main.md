@@ -47,3 +47,6 @@ Audio samples coming later.
 # Version 1.1
 
 Version 1.1. fixes most of the bugs in the design. However, it hasn't been built yet.
+
+
+{% include footer.md  %}

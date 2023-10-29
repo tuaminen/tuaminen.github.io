@@ -37,10 +37,13 @@
 
 7/2023: [Colorsound Wah Fuzz pedal internals](./Colorsound.md)
 
+# Software
+
+2017?-202x: ["Invaders from Space": Commodore 64 Game](c64game/main.md)
 
 # My other sites
 
-[Sandst0rm music at Youtube](https://www.youtube.com/@sandst0rmOfficial)
+[SANDST0RM music at Youtube](https://www.youtube.com/@sandst0rmOfficial)
 
 [Instagram](https://www.instagram.com/tuaminen/)
 
