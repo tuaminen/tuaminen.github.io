@@ -35,6 +35,8 @@
 
 # Other HW stuff
 
+4/2024: [Sound Master SR-88](./sr88.md)
+
 7/2023: [Steel Panther 1987 guitar pedal internals](./1987.md)
 
 7/2023: [Colorsound Wah Fuzz pedal internals](./Colorsound.md)
