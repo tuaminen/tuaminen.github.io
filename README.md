@@ -47,6 +47,20 @@
 
 2017?-202x: ["Invaders from Space": Commodore 64 Game](c64game/main.md)
 
+
+# My "Studio"
+
+[Guitars](studio/guitars.md)
+
+[Keyboards and synths](studio/keyboards.md)
+
+[Drum machines](studio/drum_machines.md)
+
+[Effects and pedals](studio/fx.md)
+
+
+
+
 # My other sites
 
 [SANDST0RM music at Youtube](https://www.youtube.com/@sandst0rmOfficial)
